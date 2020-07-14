@@ -10,7 +10,7 @@ var clientsurname = primoCarattere + altricaratteri;
 // in ordine alfabetico con sort, che ha a-z come default.
 iscritti.push(clientsurname);
 iscritti.sort();
-// in un ciclo for, per comodità, creo una variabile client
+// In un ciclo for, per comodità, creo una variabile client
 // per gestire ogni singolo elemento del array e la stampo
 // su li.
 for (var i = 0; i < iscritti.length; i++) {
